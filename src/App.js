@@ -1,21 +1,23 @@
+
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import MealPlan from './pages/MealPlan';
-import Reminders from './pages/Reminders';
-import Tips from './pages/Tips';
-import Assistance from './pages/Assistance';
-import Tracking from './pages/Tracking';
+import Inicio from './screens/Inicio';
+import Plan from './screens/Plan';
+import Recordatorios from './screens/Recordatorios';
+import Consejos from './screens/Consejos';
+import Asistencia from './screens/Asistencia';
+import Seguimiento from './screens/Seguimiento';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/meal-plan' element={<MealPlan />} />
-        <Route path='/reminders' element={<Reminders />} />
-        <Route path='/tips' element={<Tips />} />
-        <Route path='/assistance' element={<Assistance />} />
-        <Route path='/tracking' element={<Tracking />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/plan" element={<Plan />} />
+        <Route path="/recordatorios" element={<Recordatorios />} />
+        <Route path="/consejos" element={<Consejos />} />
+        <Route path="/asistencia" element={<Asistencia />} />
+        <Route path="/seguimiento" element={<Seguimiento />} />
       </Routes>
     </Router>
   );
