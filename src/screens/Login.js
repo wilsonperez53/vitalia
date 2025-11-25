@@ -7,6 +7,7 @@ export default function Login() {
     <Layout>
       <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+          <img class="h-48 w-96 object-cover ..." src="/img/mountains.jpg" />
           <img src="C:\reposWilson\vitalia\src\assets\logo.png" alt="Vitalia" class="mx-auto h-10 w-auto" />
           <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-green">Acceder como cuidador</h2>
         </div>
