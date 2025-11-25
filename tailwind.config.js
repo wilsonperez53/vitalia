@@ -13,7 +13,7 @@ module.exports = {
         sans: ["Inter", "sans-serif"], // Fuente limpia y legible
       },
       backgroundImage: {
-        'vitalia-logo': "url('/assets/logo-vitalia.png')", // Ruta del logo
+        'vitalia-logo': "url('/screens/logo.png')", // Ruta del logo
       }
     }
   },
